@@ -933,6 +933,9 @@
 .fa-circle-o:before {
   content: "\f10c";
 }
+.fa-solid fa-circle-book-open:before {
+  content: "\e0ff";
+}
 .fa-quote-left:before {
   content: "\f10d";
 }
