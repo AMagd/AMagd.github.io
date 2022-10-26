@@ -5,10 +5,14 @@ subtitle: My name is Ahmed
 sitemap:
   priority: 0.9
 ---
+<div class="image-cropper">
+  <img src="{{ '/assets/img/personal.jpg' | prepend: site.baseurl }}" class="rounded" />
+</div>
 
-<img src="{{ '/assets/img/personal.jpg' | prepend: site.baseurl }}" id="about-img">
+<!-- <img src="{{ '/assets/img/personal.jpg' | prepend: site.baseurl }}" class=rounded id="about-img"> -->
 
 <div id="describe-text">
-	<p>I am a robotics master student at <a href="https://www.kaist.ac.kr/kr/"> KAIST</a>. Currently a member of the perception team at <a href="https://http://vdclab.kaist.ac.kr/"> VDC</a> Lab.</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
+	<p></p>
+	<strong> RESEARCH INTEREST </strong>
+	<p>Deep Learning, <u>Reinforcement Learning</u>, <u>Self-supervised Learning</u>, Computer Vision and Robotics <br/> (Ordered according to my interest in the topic)</p>
 </div>

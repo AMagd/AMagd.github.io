@@ -15,9 +15,25 @@
     font-size: 100%;
     line-height: 32px; }
 
+  .image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
   img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+
+  /* img {
     display: block;
-    max-width: 100%; }
+    max-width: 100%; } */
 
   blockquote {
     letter-spacing: 3px;
