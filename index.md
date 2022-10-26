@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 <div class="image-cropper">
-  <img src="{{ '/assets/img/personal.jpg' | prepend: site.baseurl }}" class="rounded" />
+  <img src="{{ '/assets/img/personal.png' | prepend: site.baseurl }}" class="rounded" />
 </div>
 
 <!-- <img src="{{ '/assets/img/personal.jpg' | prepend: site.baseurl }}" class=rounded id="about-img"> -->
