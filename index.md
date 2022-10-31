@@ -14,5 +14,5 @@ sitemap:
 <div id="describe-text">
 	<p></p>
 	<strong> ABOUT </strong>
-	<p>I am a robotics master student at KAIST. Currently I am a member of the perception team at <a href="https://http://vdclab.kaist.ac.kr/"> VDC</a> Lab. My current research focuses on self-driving cars, specifically on mapping the surroundings of the ego-vehicle in a bird's eye view manner (BEV). Although I am currently working in CVML, I am interested in working with reinforcement learning (RL) and self-supervised learning (SSL) after finishing my masters.</p>
+	<p>I am a robotics master student at KAIST. Currently I am a member of the perception team at <a href="http://vdclab.kaist.ac.kr/"> VDC</a> Lab. My current research focuses on self-driving cars, specifically on mapping the surroundings of the ego-vehicle in a bird's eye view manner (BEV). Although I am currently working in CVML, I am interested in working with reinforcement learning (RL) and self-supervised learning (SSL) after finishing my masters.</p>
 </div>
