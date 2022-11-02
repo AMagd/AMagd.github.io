@@ -1,48 +1,61 @@
 ---
 layout: page
-title:  "Projects"
-subtitle: ""
+title:  "Selected Projects"
+subtitle: "many other projects are not included in here and were not documented"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
 
-## Lane Segmentation: 
-segmenting different types of road lanes, each with one has it's own color as shown below
+## [2022] Deep Learning: Lane Segmentation
+segmenting different types of road lanes, each one has it's own color as shown below
 
 <p align="center">
 <img src="{{ '/assets/project_media/lane_seg.gif' | prepend: site.baseurl }}" class="center" />
 </p>
 
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-## Convex Optimization: UAV Path Planning with Obstacle Avoidance:
-The light blue circles represent the position of the UAV at each step, while the red and green polytopes represent the obstacles and free areas respectively. The green polytopes are made to guide the UAV into knowing that these places are free spaces. [Report][Report] [Code][Code]
+## [2021] Convex Optimization: UAV Path Planning with Obstacle Avoidance
+The light blue circles represent the position of the UAV at each step, while the red and green polytopes represent the obstacles and free areas respectively. The green polytopes are made to guide the UAV into knowing that these places are free spaces. [[Report]][Report] [[Code]][Code1]
 
 [Report]: /assets/project_media/path_planning.pdf
-[Code]:   https://github.com/AMagd/Path_Planning_Optimization
+[Code1]:   https://github.com/AMagd/Path_Planning_Optimization
 
 <p align="center">
 <img src="{{ '/assets/project_media/path_planning.png' | prepend: site.baseurl }}" style="width:500px;" class="center" />
 </p>
 
-## Project 3:
-Jekyll also offers powerful support for code snippets:
+## [2020] Computer Vision: UAV Localization
+Proposing a design for a landing station that can replace ArUco markers in harsh weather conditions. Then implementing an algorithm that uses this design to localize the UAV in 3D (with different precisions depending on the how much area is visible from the station)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<p align="center">
+<img src="{{ '/assets/project_media/uav_localization.gif' | prepend: site.baseurl }}" class="center" />
+</p>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## [2020] Robotics: KUKA 6 DOF Inverse Kinematics with Simulation
+Solving the inverse kinematics of a 6 DOF KUKA manipulator for all possible solutions (in this case we have 8 different solutions in most of the configurations). Then simulating the manipulators' movement. [[Videos]][KUKA-Videos] [[Code]][Code1]
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[KUKA-Videos]: https://youtube.com/playlist?list=PL9nxOfGsvMusy76Hr64nVc0glB2h7BjB4
+[Code1]: https://github.com/AMagd/KUKA-6-DoF-Inverse-Kinematics
+
+<p align="center">
+<img src="{{ '/assets/project_media/kuka_allconfigs.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
+<img src="{{ '/assets/project_media/kuka_move.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
+</p>
+
+---
+
+<p style="text-align: center;"><font size="5"> Selected Undergraduate Projects </font></p>
+
+## [2019] Human Pose Estimation
+I have used Kinect sensor that outputs both, depth and RGB images of the given scene. Then I fused ROS with LabVIEW to estimate participants' body joints locations. In addition, I have created a user interface to measure the pose estimation in real time and to send it to other modules used to control other actuators in the system. The video below, shows the estimated angle of the right elbow in real-time.
+
+<p align="center">
+<img src="{{ '/assets/project_media/kinect.gif' | prepend: site.baseurl }}" class="center" />
+</p>
+
+## [2019] Playing Around: Using Linear Algebra for Simulations
+I had free time during my undergraduate days, so I tried to play around and simulate the movements of a parallel manipulator (in this case it was Stewart Platform). And this was before learning about robot kinematics, it was purely based on linear algebra knowledge.
+
+<p align="center">
+<img src="{{ '/assets/project_media/stewart1.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
+<img src="{{ '/assets/project_media/stewart2.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
+</p>
