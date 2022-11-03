@@ -6,6 +6,9 @@ date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
 
+## 1 Paper Submitted to ICRA 2023 (Under Review)
+I am a second author, and I have contributed by writing a section in the paper.
+
 ## Classifying Upper Limb Activities Using Deep Learning
 Hassan Ashraf Elkholy, Ahmad Taher Azar, **Ahmed Magd**, Hagar Marzouk, Hossam Hassan Ammar, <em>The International Conference on Artificial Intelligence and Computer Vision (AICV) 2020</em>. [[Link]][Link1]
 
