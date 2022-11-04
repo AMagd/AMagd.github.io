@@ -14,7 +14,7 @@ segmenting different types of road lanes, each one has it's own color as shown b
 </p>
 
 ## [2021] Convex Optimization: UAV Path Planning with Obstacle Avoidance
-The light blue circles represent the position of the UAV at each step, while the red and green polytopes represent the obstacles and free areas respectively. The green polytopes are made to guide the UAV into knowing that these places are free spaces. [[Report]][Report] [[Code]][Code1]
+The light blue circles represent the position of the UAV at each step, while the red and green polytopes represent the obstacles and free areas respectively. The green polytopes were created to guide the UAV into knowing that these places are free spaces, and to solve the problem in a particular convex optimization technique. [[Report]][Report] [[Code]][Code1]
 
 [Report]: /assets/project_media/path_planning.pdf
 [Code1]:   https://github.com/AMagd/Path_Planning_Optimization
@@ -24,7 +24,7 @@ The light blue circles represent the position of the UAV at each step, while the
 </p>
 
 ## [2020] Computer Vision: UAV Localization
-Proposing a design for a landing station that can replace ArUco markers in harsh weather conditions. Then implementing an algorithm that uses this design to localize the UAV in 3D (with different precisions depending on the how much area is visible from the station)
+Proposing a design for a UAV's landing station that can replace ArUco markers in harsh weather conditions. Then implementing an algorithm that uses this design to localize the UAV in 3D (with different precisions depending on the amount of occlusion on the station)
 
 <p align="center">
 <img src="{{ '/assets/project_media/uav_localization.gif' | prepend: site.baseurl }}" class="center" />
