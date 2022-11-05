@@ -31,10 +31,10 @@ Proposing a design for a UAV's landing station that can replace ArUco markers in
 </p>
 
 ## [2020] Robotics: KUKA 6 DOF Inverse Kinematics with Simulation
-Solving the inverse kinematics of a 6 DOF KUKA manipulator for all possible solutions (in this case we have 8 different solutions in most of the configurations). Then simulating the manipulators' movement. [[Videos]][KUKA-Videos] [[Code]][Code1]
+Solving the inverse kinematics of a 6 DOF KUKA manipulator for all possible solutions (in this case we have 8 different solutions in most of the configurations). Then simulating the manipulators' movement. [[Videos]][KUKA-Videos] [[Code]][Code2]
 
 [KUKA-Videos]: https://youtube.com/playlist?list=PL9nxOfGsvMusy76Hr64nVc0glB2h7BjB4
-[Code1]: https://github.com/AMagd/KUKA-6-DoF-Inverse-Kinematics
+[Code2]: https://github.com/AMagd/KUKA-6-DoF-Inverse-Kinematics
 
 <p align="center">
 <img src="{{ '/assets/project_media/kuka_allconfigs.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
