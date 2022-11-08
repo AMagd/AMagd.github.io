@@ -10,7 +10,7 @@ categories: ["general"]
 segmenting different types of road lanes, each one has it's own color as shown below
 
 <p align="center">
-<img src="{{ '/assets/project_media/lane_seg.gif' | prepend: site.baseurl }}" class="center" />
+<img src="{{ '/assets/project_media/lane_seg.gif' | prepend: site.baseurl }}" style="width:500px;" class="center" />
 </p>
 
 ## [2021] Convex Optimization: UAV Path Planning with Obstacle Avoidance
@@ -27,7 +27,7 @@ The light blue circles represent the position of the UAV at each step, while the
 Proposing a design for a UAV's landing station that can replace ArUco markers in harsh weather conditions. Then implementing an algorithm that uses this design to localize the UAV in 3D (with different precisions depending on the amount of occlusion on the station)
 
 <p align="center">
-<img src="{{ '/assets/project_media/uav_localization.gif' | prepend: site.baseurl }}" class="center" />
+<img src="{{ '/assets/project_media/uav_localization.gif' | prepend: site.baseurl }}" style="width:500px;" class="center" />
 </p>
 
 ## [2020] Robotics: KUKA 6 DOF Inverse Kinematics with Simulation
@@ -49,7 +49,7 @@ Solving the inverse kinematics of a 6 DOF KUKA manipulator for all possible solu
 I have used Kinect sensor that outputs both, depth and RGB images of the given scene. Then I fused ROS with LabVIEW to estimate participants' body joints locations. In addition, I have created a user interface to measure the pose estimation in real time and to send it to other modules used to control other actuators in the system. The video below, shows the estimated angle of the right elbow in real-time.
 
 <p align="center">
-<img src="{{ '/assets/project_media/kinect.gif' | prepend: site.baseurl }}" class="center" />
+<img src="{{ '/assets/project_media/kinect.gif' | prepend: site.baseurl }}" style="width:500px;" class="center" />
 </p>
 
 ## [2019] Playing Around: Using Linear Algebra for Simulations
