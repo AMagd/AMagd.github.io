@@ -59,3 +59,19 @@ I had free time during my undergraduate days, so I tried to play around and simu
 <img src="{{ '/assets/project_media/stewart1.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
 <img src="{{ '/assets/project_media/stewart2.gif' | prepend: site.baseurl }}" style="width:300px;" class="center" />
 </p>
+
+## [2019] Building a 6DOF Robotic Arm
+Along with my teammates, we built a 6DOF robotic arm entirely from scratch, with most of the parts being 3D printed while the others are made of acrylic. This was during a project organised by Nile University and Erasmus+ (VETEng program) , that tries to group mechatronics engineering students with vocational students in several projects.
+
+<p align="center">
+<img src="{{ '/assets/project_media/6dof.gif' | prepend: site.baseurl }}" class="center" />
+</p>
+
+## [2018] Automatic Vacuum Cleaner
+In an effort to building a simple automatic vacuum cleaner, me and my teammates, we built a small robot that uses omniwheels, for a better DOM during indoor Environments. We also used ultrasonic sensors for obstacle avoidance purposes. [[Video]][OMNI-Video]
+
+[OMNI-Video]: https://www.youtube.com/watch?v=p35AV2-RIWU
+
+<p align="center">
+<img src="{{ '/assets/project_media/omni.gif' | prepend: site.baseurl }}" class="center" />
+</p>
