@@ -68,7 +68,7 @@ Along with my teammates, we built a 6DOF robotic arm entirely from scratch, with
 </p>
 
 ## [2018] Automatic Vacuum Cleaner
-In an effort to building a simple automatic vacuum cleaner, me and my teammates, we built a small robot that uses omniwheels, for a better DOM during indoor Environments. We also used ultrasonic sensors for obstacle avoidance purposes. [[Video]][OMNI-Video]
+In an effort to build a simple automatic vacuum cleaner, me and my teammates, we built a small robot that uses omniwheels, for a better DOM during indoor Environments. We also used ultrasonic sensors for obstacle avoidance purposes. [[Video]][OMNI-Video]
 
 [OMNI-Video]: https://www.youtube.com/watch?v=p35AV2-RIWU
 
