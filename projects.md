@@ -61,7 +61,7 @@ I had free time during my undergraduate days, so I tried to play around and simu
 </p>
 
 ## [2019] Building a 6DOF Robotic Arm
-Along with my teammates, we built a 6DOF robotic arm entirely from scratch, with most of the parts being 3D printed while the others are made of acrylic. This was during a project organised by Nile University and Erasmus+ (VETEng program) , that tries to group mechatronics engineering students with vocational students in several projects.
+Along with my teammates, we built a 6DOF robotic arm **entirely from scratch**, with most of the parts being 3D printed while the others are made of acrylic. This was during a program organized by Nile University and Erasmus+ (VETEng program) , that aims to group mechatronics engineering students with vocational students in several projects.
 
 <p align="center">
 <img src="{{ '/assets/project_media/6dof.gif' | prepend: site.baseurl }}" style="width:450px;" class="center" />
