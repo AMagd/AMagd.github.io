@@ -7,7 +7,7 @@ categories: ["general"]
 ---
 
 ## [2022] Deep Learning: Lane Segmentation
-I have applied deep learning to a wide range of applications especially in computer vision, and the lange segemnation is just one of them. Here I am segmenting different types of road lanes, each one has it's own color as shown below
+I have applied deep learning to a wide range of applications especially in computer vision, and the lane segemnation is just one of them. Here I am segmenting different types of road lanes, each one has it's own color as shown below
 
 <p align="center">
 <img src="{{ '/assets/project_media/lane_seg.gif' | prepend: site.baseurl }}" style="width:450px;" class="center" />
