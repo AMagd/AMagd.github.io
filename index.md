@@ -21,3 +21,13 @@ sitemap:
 	<br> Deep Learning, <u>Reinforcement Learning</u>, <u>Self-supervised Learning</u>, Computer Vision and Robotics <br/> (Ordered according to my interest in the topic)
 	</p>
 </div>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZEH9ZC3R5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FZEH9ZC3R5');
+</script>
