@@ -49,7 +49,7 @@ categories: ["general"]
   <br><b>Course Structure:</b>
   <br> - Coding assignments
   <br> - Paper presentation
-  <br> - 40 Quizzes, each quick is for one paper related to CVML
+  <br> - 40 Quizzes, each quiz is for one paper related to CVML
   <br>
   <br><b>Lectures:</b>
   <br> - Filters and detectors
