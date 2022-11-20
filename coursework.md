@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Relevant MS Coursework"
+title:  "Relevant Coursework"
 subtitle: "click on the course to see it's table of content"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
