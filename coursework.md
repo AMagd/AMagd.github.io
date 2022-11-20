@@ -223,10 +223,6 @@ categories: ["general"]
   </details>
 
   <details style="button">
-    <summary>Sensing Perception and Actuation</summary>
-  </details>
-
-  <details style="button">
     <summary>Fundamentals of Robot Control</summary>
   </details>
 
@@ -247,3 +243,24 @@ categories: ["general"]
   </details>
 </div>
 <br>
+
+<div id="describe-text">
+	<strong style="font-size:30px"> Nile University </strong>
+
+  <details style="button">
+    <summary>Robotics</summary>
+  </details>
+
+  <details style="button">
+    <summary>Automatic Control Systems</summary>
+  </details>
+
+  <details style="button">
+    <summary>Modeling and Simulation of Dynamic Systems</summary>
+  </details>
+
+  <details style="button">
+    <summary>Kinematics and Dynamics of Mechanical Systems</summary>
+  </details>
+
+</div>
