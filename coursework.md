@@ -15,9 +15,10 @@ categories: ["general"]
   <p align="left">
   <br><b>Instructor:</b>
   <br>Prof. Edward Choi,
-  <br>Graduate School of AI
+  <br>Graduate School of AI, (ex. Google Health Research, ex. intern Google Research, ex. internt DeepMind, etc.)
   <br>
   <br><b>Course Structure:</b>
+  <br> - Weekly coding practice session (implementing all the topics covered in the lectures)
   <br> - 2 Projects
   <br>
   <br><b>Lectures:</b>
@@ -38,97 +39,12 @@ categories: ["general"]
   </p>
 </details>
 
-<details>
-    <summary>Deep Learning for Computer Vision</summary>
-    <p align="left">
-	<br><b>Instructor:</b>
-	<br>Prof. Jaegul Choo
-  <br>Graduate School of AI
-	<br>
-	<br><b>Course Structure:</b>
-	<br> - Term Project
-	<br> - Weekly paper review with summary and critique
-	<br> - In-class quizzes every lecture
-	<br>
-	<br><b>Lectures:</b>
-	<br> - Introduction to computer vision
-	<br> - Convolutional neural networks and image classification
-	<br> - Image captioning (Show, attend, and tell) & Object Detection (Fast R-CNN, Faster R-CNN, YOLO, SSD, ...)
-	<br> - Semantic segmentation and instance segmentation (DeepLab and its variant models)
-	<br> - Image generation (Basics of GANs, DCGAN, PGGAN, StyleGAN, VAE, PixelRNN, PixelCNN, ...)
-	<br> - Image-to-image translation (Pix2Pix, CycleGAN, StarGAN, MUNIT, DRIT, ...)
-	<br> - Self-supervised representation learning (MoCo, SimCLR, ...)
-	<br> - Domain adaptation, meta-learning, few-shot learning, zero-shot learning (DANN, MAML, ...)
-	<br> - 3D vision (Point clouds, 3D reconstruction)
-	<br> - Multi-modal learning (CLIP, Dall-E, ...)
-	<br> - Model interpretability (CAM, GradCAM, LIME, ...)
-	<br> - User-interactive generative models (Interactive colorization, Interactive instance segmentation, GANDissect, ...)
-	<br> - Data augmentation techniques (MixUp, CutOut, CutMix, ...)
-	</p>
-</details>
-
-<details style="button">
-  <summary>Deep Learning</summary>
-  <p align="left">
-  <br><b>Instructor:</b>
-  <br>Prof. Jaesik Choi
-  <br>Graduate School of AI
-  <br>
-  <br><b>Course Structure:</b>
-  <br> - 2 programming assignments
-  <br> - 2 source code reviews
-  <br> - 2 source code implementations from scratch
-  <br> - 1 paper/source code presentation
-  <br> - 6 one-page paper reviews
-  <br> - 1 term project
-  <br>
-  <br><b>Lectures:</b>
-  <br> - Regularization for Deep Learning
-  <br> - Optimization for Training Deep Models
-  <br> - Practical Methodology
-  <br> - Autoencoders
-  <br> - Representation Learning
-  <br> - Deep Generative Models
-  <br> - Convolutional Neural Networks
-  <br> - Recurrent Neural Networks
-  <br> - Recurrent Neural Networks
-  <br> - Autoenccoders & Variational Autoencoders
-  <br> - Generative Adversarial Networks
-  <br> - Generative Adversarial Networks
-  </p>
-</details>
-
-<details style="button">
-  <summary>Probability and Statistic</summary>
-  <p align="left">
-  <br><b>Instructor:</b>
-  <br>Prof. Sung-Ho Kim
-  <br>Dept of Mathematical Sciences
-  <br>
-  <br><b>Lectures:</b>
-  <br> - Probability Theory
-  <br> - Random Variables
-  <br> - Discrete Probability
-  <br> - Continuous Probability
-  <br> - The Normal Distribution
-  <br> - Descriptive Statistics
-  <br> - Statistical Estimation and Sampling Distributions
-  <br> - Inference on a Population Mean
-  <br> - Comparing Two Population Means
-  <br> - Discrete Data Analysis
-  <br> - The Analysis of Variance
-  <br> - Simple Linear Regression and Correlation
-  <br> - Simple Linear Regression and Correlation
-  <br> - Simple Linear Regression and Correlation
-  </p>
-</details>
-
 <details style="button">
   <summary>Computer Vision</summary>
   <p align="left">
   <br><b>Instructor:</b>
   <br>Prof. Seunghoon Hong,
-  <br>School of Computing
+  <br>School of Computing, (ex Google Brain)
   <br>
   <br><b>Course Structure:</b>
   <br> - Coding assignments
@@ -161,7 +77,7 @@ categories: ["general"]
   <p align="left">
   <br><b>Instructor:</b>
   <br>Prof. Tae-Kyun Kim,
-  <br>School of Computing
+  <br>School of Computing, (PhD from Cambridge, he is also affiliated with Imperial College London besides KAIST)
   <br>
   <br><b>Course Structure:</b>
   <br> - 2 paper review presentation
@@ -180,11 +96,96 @@ categories: ["general"]
 </details>
 
 <details style="button">
+    <summary>Deep Learning for Computer Vision</summary>
+    <p align="left">
+	<br><b>Instructor:</b>
+	<br>Prof. Jaegul Choo
+  <br>Graduate School of AI, (ex Georgia Tech)
+	<br>
+	<br><b>Course Structure:</b>
+	<br> - Term Project
+	<br> - Weekly paper review with summary and critique
+	<br> - In-class quizzes every lecture
+	<br>
+	<br><b>Lectures:</b>
+	<br> - Introduction to computer vision
+	<br> - Convolutional neural networks and image classification
+	<br> - Image captioning (Show, attend, and tell) & Object Detection (Fast R-CNN, Faster R-CNN, YOLO, SSD, ...)
+	<br> - Semantic segmentation and instance segmentation (DeepLab and its variant models)
+	<br> - Image generation (Basics of GANs, DCGAN, PGGAN, StyleGAN, VAE, PixelRNN, PixelCNN, ...)
+	<br> - Image-to-image translation (Pix2Pix, CycleGAN, StarGAN, MUNIT, DRIT, ...)
+	<br> - Self-supervised representation learning (MoCo, SimCLR, ...)
+	<br> - Domain adaptation, meta-learning, few-shot learning, zero-shot learning (DANN, MAML, ...)
+	<br> - 3D vision (Point clouds, 3D reconstruction)
+	<br> - Multi-modal learning (CLIP, Dall-E, ...)
+	<br> - Model interpretability (CAM, GradCAM, LIME, ...)
+	<br> - User-interactive generative models (Interactive colorization, Interactive instance segmentation, GANDissect, ...)
+	<br> - Data augmentation techniques (MixUp, CutOut, CutMix, ...)
+	</p>
+</details>
+
+<details style="button">
+  <summary>Deep Learning</summary>
+  <p align="left">
+  <br><b>Instructor:</b>
+  <br>Prof. Jaesik Choi, (PhD from Illinois at Urbana-Champaign)
+  <br>Graduate School of AI
+  <br>
+  <br><b>Course Structure:</b>
+  <br> - 2 programming assignments
+  <br> - 2 source code reviews
+  <br> - 2 source code implementations from scratch
+  <br> - 1 paper/source code presentation
+  <br> - 6 one-page paper reviews
+  <br> - 1 term project
+  <br>
+  <br><b>Lectures:</b>
+  <br> - Regularization for Deep Learning
+  <br> - Optimization for Training Deep Models
+  <br> - Practical Methodology
+  <br> - Autoencoders
+  <br> - Representation Learning
+  <br> - Deep Generative Models
+  <br> - Convolutional Neural Networks
+  <br> - Recurrent Neural Networks
+  <br> - Recurrent Neural Networks
+  <br> - Autoenccoders & Variational Autoencoders
+  <br> - Generative Adversarial Networks
+  <br> - Generative Adversarial Networks
+  </p>
+</details>
+
+<details style="button">
+  <summary>Probability and Statistic</summary>
+  <p align="left">
+  <br><b>Instructor:</b>
+  <br>Prof. Sung-Ho Kim, (PhD from Carnegie Mellon University)
+  <br>Dept of Mathematical Sciences
+  <br>
+  <br><b>Lectures:</b>
+  <br> - Probability Theory
+  <br> - Random Variables
+  <br> - Discrete Probability
+  <br> - Continuous Probability
+  <br> - The Normal Distribution
+  <br> - Descriptive Statistics
+  <br> - Statistical Estimation and Sampling Distributions
+  <br> - Inference on a Population Mean
+  <br> - Comparing Two Population Means
+  <br> - Discrete Data Analysis
+  <br> - The Analysis of Variance
+  <br> - Simple Linear Regression and Correlation
+  <br> - Simple Linear Regression and Correlation
+  <br> - Simple Linear Regression and Correlation
+  </p>
+</details>
+
+<details style="button">
   <summary>Introduction to Visual Intelligence</summary>
   <p align="left">
   <br><b>Instructor:</b>
   <br>Prof. Kuk-Jin Yoon,
-  <br>Dept of Mechanical Engineering
+  <br>Dept of Mechanical Engineering, (Postdoc INRIA)
   <br>
   <br><b>Course Structure:</b>
   <br> - Coding assignments
