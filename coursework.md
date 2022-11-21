@@ -271,7 +271,56 @@ categories: ["general"]
     <summary>Fundamentals of Robot Control</summary>
     <p align="left">
     <br><b>Instructor:</b>
-    <br>Prof. Dr. Ilya Afanasyev
+    <br>Prof. Igor Gaponov
+    <br>University College London
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Lectures
+    <br> - Practice coding sessions
+    <br> - Project
+    <br> - Quizzes
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Linear control (PD, PID)
+    <br> - Feedback linearization
+    <br> - Inverse dynamics
+    <br> - Robust control
+    </p>
+  </details>
+
+  <details style="button">
+    <summary>Convex Optimization and Computational Intelligence</summary>
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Sergei Savin
+    <br>Center for Technologies in Robotics and Mechatronics Components
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Lectures
+    <br> - Project
+    <br> - Assignments
+    <br> - Exam
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Null space, row space, projectors
+    <br> - Column space, left null space, control applications
+    <br> - Least squares and quadratic programming
+    <br> - Domain, convex domains
+    <br> - Linear inequality representation of convex domains
+    <br> - Linear programming
+    <br> - Quadratically constrained quadratic programming and second-order cone programming
+    <br> - Semindefinite programming
+    <br> - Mixed integer convex programming
+    <br> - Barrier functions
+    <br> - Minimax
+    </p>
+  </details>
+
+  <details style="button">
+    <summary>Sensing Perception and Actuation</summary>
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Ilya Afanasyev
     <br>Kazan Federal University (Intelligent Robotics Dep.)
     <br>
     <br><b>Course Structure:</b>
@@ -297,20 +346,58 @@ categories: ["general"]
   </details>
 
   <details style="button">
-    <summary>Convex Optimization and Computational Intelligence</summary>
-  </details>
-
-  <details style="button">
-    <summary>Sensing Perception and Actuation</summary>
-  </details>
-
-  <details style="button">
     <summary>Computer Vision</summary>
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Muhammad Fahim
+    <br>Queen's University Belfast
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Practice sessions
+    <br> - Coding Exam
+    <br> - Assignments
+    <br> - Project
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Image Filtering
+    <br> - Binary Vision
+    <br> - Object Detection
+    <br> - Image Features
+    <br> - YOLO Algorithm
+    <br> - GAN
+    <br> - Face Detection and Recognition (Viola Jones)
+    <br> - Hough Transform
+    <br> - Semantic Segmentation
+    <br> - Video Tracking
+    </p>
   </details>
 
   <details style="button">
     <summary>Advanced Robotics</summary>
-    
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Alexandr Klimchik
+    <br>Professor in Robotics (University of Lincoln)
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Assignments
+    <br> - Coding quizzes
+    <br> - Coding midterm
+    <br> - Coding final exam
+    <br> - 
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Finite element analysis
+    <br> - Elastostatic Calibration: MSA
+    <br> - Elastostatic modelling: Virtual Joint Modelling
+    <br> - Robot Calibration: Advanced robot Calibration, dynamic calibration
+    <br> - Design of experiments
+    <br> - Kinematically redundant manipulators
+    <br> - Parallel robots
+    <br> - Cable-driven Robots
+    <br> - Screw Theory
+    <br> - PoE
+    </p>    
   </details>
 </div>
 <br>
