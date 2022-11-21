@@ -384,7 +384,6 @@ categories: ["general"]
     <br> - Coding quizzes
     <br> - Coding midterm
     <br> - Coding final exam
-    <br> - 
     <br>
     <br><b>Lectures:</b>
     <br> - Finite element analysis
