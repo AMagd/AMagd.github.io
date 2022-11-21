@@ -219,7 +219,7 @@ categories: ["general"]
     <p align="left">
     <br><b>Instructor:</b>
     <br>Prof. Adil Mehmood Khan
-    <br>Faculty of Computer Science and Engineering
+    <br>Faculty of Computer Science and Engineering (Head of Lab of Machine Learning and Knowledge Representation at Innopolis University)
     <br>
     <br><b>Course Structure:</b>
     <br> - Assignments
