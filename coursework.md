@@ -300,7 +300,7 @@ categories: ["general"]
     <br> - Project
     <br> - Assignments
     <br> - Exam
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Null space, row space, projectors
     <br> - Column space, left null space, control applications
@@ -327,7 +327,7 @@ categories: ["general"]
     <br> - Lectures
     <br> - Coding Assignments
     <br> - Quizzes
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Intro to Sensors and Sensing
     <br> - Measurements & Error Analysis
@@ -357,7 +357,7 @@ categories: ["general"]
     <br> - Coding Exam
     <br> - Assignments
     <br> - Project
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Image Filtering
     <br> - Binary Vision
@@ -385,7 +385,7 @@ categories: ["general"]
     <br> - Coding midterm
     <br> - Coding final exam
     <br> - 
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Finite element analysis
     <br> - Elastostatic Calibration: MSA
