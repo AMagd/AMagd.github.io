@@ -264,6 +264,27 @@ categories: ["general"]
 
   <details style="button">
     <summary>Advanced Robotics</summary>
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Alexandr Klimchik
+    <br>Professor in Robotics (University of Lincoln)
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Coding practice sessions
+    <br> - Coding Assignments
+    <br> - Coding Exams
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Intro to robotics, drones and self-driving cars
+    <br> - Tutorial on ROS
+    <br> - Rigid body, homogeneous transformation and direct kinematics
+    <br> - Inverse kinematics
+    <br> - Differential kinematics
+    <br> - Geometric calibration
+    <br> - Trajectory planning
+    <br> - Dynamics of rigid body and robotic manipulator
+    <br> - Dynamics: Lagrange and Newton-Euler formulation
+    </p>
   </details>
 </div>
 <br>
