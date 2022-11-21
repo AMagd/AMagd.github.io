@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Relevant Coursework"
-subtitle: "click on the course to see it's table of content"
+subtitle: "click on the course to view the table of content"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
@@ -216,6 +216,30 @@ categories: ["general"]
 
   <details style="button">
     <summary>Machine Learning</summary>
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Adil Mehmood Khan
+    <br>Faculty of Computer Science and Engineering
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Assignments
+    <br> - Participation (in-class quizzes to chosen students)
+    <br> - Deep learing competition
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Bais-Variance Tradeoff
+    <br> - Linear Regression
+    <br> - Gradient descent, classification, logistic regression and confusion matrix
+    <br> - Bayes classifier, Naive bayes classifier, KNN classifier, regularization and cross validation
+    <br> - Separating hyperplanes, maximal margin classifier and SVM
+    <br> - PCA
+    <br> - Artificial neural networks and backpropagation
+    <br> - CNNs
+    <br> - Dropout, batch normalization, early stopping, transfer learning, data augmentation, etc.
+    <br> - Decision trees
+    <br> - Tree pruning, ensemble learning (bagging and boosting)
+    <br> - Unsupervised learning, clustering, k-means clustering, k-means++, DBSCAN and hierarchical clustering
+    </p>
   </details>
 
   <details style="button">
