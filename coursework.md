@@ -225,7 +225,7 @@ categories: ["general"]
     <br> - Assignments
     <br> - Participation (in-class quizzes to chosen students)
     <br> - Deep learing competition
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Bais-Variance Tradeoff
     <br> - Linear Regression
@@ -253,7 +253,7 @@ categories: ["general"]
     <br> - Coding practice sessions
     <br> - Coding Assignments
     <br> - Coding Exams
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Intro to robotics, drones and self-driving cars
     <br> - Tutorial on ROS
@@ -279,7 +279,7 @@ categories: ["general"]
     <br> - Practice coding sessions
     <br> - Project
     <br> - Quizzes
-    </br>
+    <br>
     <br><b>Lectures:</b>
     <br> - Linear control (PD, PID)
     <br> - Feedback linearization
