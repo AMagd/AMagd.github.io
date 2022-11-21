@@ -244,26 +244,6 @@ categories: ["general"]
 
   <details style="button">
     <summary>Dynamics of Nonlinear Robotics Systems</summary>
-  </details>
-
-  <details style="button">
-    <summary>Fundamentals of Robot Control</summary>
-  </details>
-
-  <details style="button">
-    <summary>Convex Optimization and Computational Intelligence</summary>
-  </details>
-
-  <details style="button">
-    <summary>Sensing Perception and Actuation</summary>
-  </details>
-
-  <details style="button">
-    <summary>Computer Vision</summary>
-  </details>
-
-  <details style="button">
-    <summary>Advanced Robotics</summary>
     <p align="left">
     <br><b>Instructor:</b>
     <br>Prof. Alexandr Klimchik
@@ -285,6 +265,52 @@ categories: ["general"]
     <br> - Dynamics of rigid body and robotic manipulator
     <br> - Dynamics: Lagrange and Newton-Euler formulation
     </p>
+  </details>
+
+  <details style="button">
+    <summary>Fundamentals of Robot Control</summary>
+    <p align="left">
+    <br><b>Instructor:</b>
+    <br>Prof. Dr. Ilya Afanasyev
+    <br>Kazan Federal University (Intelligent Robotics Dep.)
+    <br>
+    <br><b>Course Structure:</b>
+    <br> - Lectures
+    <br> - Coding Assignments
+    <br> - Quizzes
+    </br>
+    <br><b>Lectures:</b>
+    <br> - Intro to Sensors and Sensing
+    <br> - Measurements & Error Analysis
+    <br> - Filtering, Kalman Filter
+    <br> - Image sensors
+    <br> - Camera calibration
+    <br> - Stereo vision
+    <br> - Depth camera, MS Kinect
+    <br> - Sensor fusion. Multisensory systems
+    <br> - LIDAR & SONAR
+    <br> - Inertial sensors
+    <br> - GPS
+    <br> - Internal sensors
+    <br> - Actuators, MEMS and Smart Sensors
+    </p>
+  </details>
+
+  <details style="button">
+    <summary>Convex Optimization and Computational Intelligence</summary>
+  </details>
+
+  <details style="button">
+    <summary>Sensing Perception and Actuation</summary>
+  </details>
+
+  <details style="button">
+    <summary>Computer Vision</summary>
+  </details>
+
+  <details style="button">
+    <summary>Advanced Robotics</summary>
+    
   </details>
 </div>
 <br>
