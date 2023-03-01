@@ -6,7 +6,7 @@ date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
 ## [2023] Deep RL: BLAST Implementation
-In this project I tried to reproduce the results published by the paper "BLAST: Latent Dynamics Models from Bootstrapping", a model-based RL algorithm based on DreamerV2.
+In this work I tried to reproduce the results published by the paper "BLAST: Latent Dynamics Models from Bootstrapping", a model-based RL algorithm based on DreamerV2.
 
 <!-- use "jekyll serve" command to view the page -->
 Random policy on different environment modifications of MiniGrid-Dynamic-Obstacles-6x6-v0 (Unmodified, Smaller Agent, Color Direction, Random BG Frames, Video BG):
