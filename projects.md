@@ -18,12 +18,12 @@ Random policy on different environment modifications of MiniGrid-Dynamic-Obstacl
 <img src="{{ '/assets/project_media/video.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
 </p>
 
-Trained agents on the environment with video background:
+Trained agents on the video and random frames environments:
 <p align="center">
 <img src="{{ '/assets/project_media/bn.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/ema.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
 <img src="{{ '/assets/project_media/recon.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/dv2.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/recon_random_frames.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/bn_random_frames.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
 </p>
 
 ## [2022] Deep Learning: Lane Segmentation
