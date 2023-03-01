@@ -5,6 +5,26 @@ subtitle: "many other projects are not included in here and were not documented"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
+## [2023] Deep RL: BLAST Implementation
+In this project I tried to reproduce the results published by the paper "BLAST: Latent Dynamics Models from Bootstrapping", a model-based RL algorithm based on DreamerV2.
+
+<!-- use "jekyll serve" command to view the page -->
+Random policy on different environment modifications of MiniGrid-Dynamic-Obstacles-6x6-v0 (Unmodified, Smaller Agent, Color Direction, Random BG Frames, Video BG):
+<p align="center">
+<img src="{{ '/assets/project_media/unmodified.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/small_agent.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/color_direction.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/random_frames.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/video.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+</p>
+
+Trained agents on the environment with video background:
+<p align="center">
+<img src="{{ '/assets/project_media/bn.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/ema.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/recon.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/dv2.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+</p>
 
 ## [2022] Deep Learning: Lane Segmentation
 I have applied deep learning to a wide range of applications especially in computer vision, and the lane segemnation is just one of them. Here I am segmenting different types of road lanes, each one has it's own color as shown below
