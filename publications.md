@@ -6,10 +6,8 @@ date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
 
-## 1 Paper Submitted to CVPR 2023 (Under Review)
-I am a second author, and I have contributed by writing a section in the paper.
-
-## 1 Paper Submitted to ICRA 2023 (Under Review)
+## 1 Paper Submitted to CVPR 2023 (<span style="color: green"> Accepted </span>
+)
 I am a second author, and I have contributed by writing a section in the paper.
 
 ## Classifying Upper Limb Activities Using Deep Learning
