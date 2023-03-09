@@ -11,19 +11,29 @@ In this work I tried to reproduce the results published by the paper "BLAST: Lat
 <!-- use "jekyll serve" command to view the page -->
 Random policy on different environment modifications of MiniGrid-Dynamic-Obstacles-6x6-v0 (Unmodified, Smaller Agent, Color Direction, Random BG Frames, Video BG):
 <p align="center">
-<img src="{{ '/assets/project_media/unmodified.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/small_agent.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/color_direction.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/random_frames.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/video.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/unmodified.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/small_agent.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/color_direction.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/random_frames.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/video.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
 </p>
 
-Trained agents on the video and random frames environments:
+Trained DreamerV2 agents:
 <p align="center">
-<img src="{{ '/assets/project_media/bn.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/recon.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/recon_random_frames.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
-<img src="{{ '/assets/project_media/bn_random_frames.gif' | prepend: site.baseurl }}" style="width:150px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/unmodified_dv2.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/smaller_agent_dv2.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/color_direction_dv2.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/random_frames_dv2.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/video_dv2.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+</p>
+
+Trained BLAST agents:
+<p align="center">
+<img src="{{ '/assets/project_media/BLAST/unmodified_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/smaller_agent_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/color_direction_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/random_frames_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+<img src="{{ '/assets/project_media/BLAST/video_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
 </p>
 
 ## [2022] Deep Learning: Lane Segmentation
