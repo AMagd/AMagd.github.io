@@ -5,6 +5,64 @@ subtitle: "many other projects are not included in here and were not documented"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
+## [2023] Deep RL: Enhancing World Model Imagination in Model-Based RL
+In this project, I advanced the capabilities of world models in model-based Reinforcement Learning by extending the work from "S4WM: Facing Off World Model Backbones: RNNs, Transformers, and S4." My implementation notably enhanced the S4WM's performance, as demonstrated in the four-rooms memory maze environment.
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="{{ '/assets/project_media/S4WM/results.png' | prepend: site.baseurl }}" alt="S4WM Results" style="width: 50%; max-width: 100%; height: auto;">
+  <div style="width: 100%;">
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+      <tr>
+        <th style="border-bottom: 1px solid #ccc; text-align: left; padding: 8px;">Measurement/model</th>
+        <th style="border-bottom: 1px solid #ccc; text-align: left; padding: 8px;">S4WM</th>
+        <th style="border-bottom: 1px solid #ccc; text-align: left; padding: 8px;">Improved WM</th>
+      </tr>
+      <tr>
+        <td style="border-bottom: 1px solid #ccc; padding: 8px;">Test reconstruction MSE</td>
+        <td style="border-bottom: 1px solid #ccc; padding: 8px;">1.6749</td>
+        <td style="border-bottom: 1px solid #ccc; padding: 8px; color: green;">✅ 1.5234</td>
+      </tr>
+      <tr>
+        <td style="border-bottom: 1px solid #ccc; padding: 8px;">Test generation MSE</td>
+        <td style="border-bottom: 1px solid #ccc; padding: 8px;">44.2629</td>
+        <td style="border-bottom: 1px solid #ccc; padding: 8px; color: green;">✅ 26.5459</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+Visualization and comparative analysis between S4WM and RSSM for reconstruction and imagination effectiveness:
+<p align="center">
+  <img src="{{ '/assets/project_media/S4WM/highlight.png' | prepend: site.baseurl }}" style="width:50%;" class="center" />
+</p>
+
+Illustrating model performance through various trajectories, comparing S4WM and RSSM:
+<div style="text-align: center;">
+  <!-- Trajectory for the first pair of GIFs -->
+  <div style="color: #yourColor; font-size: 14px;">A→B→C→D→A→B→C→D</div>
+  <div style="position: relative; display: inline-block; margin: 0 10px;">
+    <img src="{{ '/assets/project_media/S4WM/abcdabcd.gif' | prepend: site.baseurl }}" alt="ABCDABCD Trajectory" style="width:75px;" />
+    <div style="color: #yourColor; font-size: 14px;">S4WM</div>
+  </div>
+  
+  <div style="position: relative; display: inline-block; margin: 0 10px;">
+    <img src="{{ '/assets/project_media/S4WM/abcdabcd_rssm.gif' | prepend: site.baseurl }}" alt="ABCDABCD RSSM Trajectory" style="width:75px;" />
+    <div style="color: #yourColor; font-size: 14px;">RSSM</div>
+  </div>
+  
+  <!-- Trajectory for the second pair of GIFs -->
+  <div style="color: #yourColor; font-size: 14px;">A→B→C→C→D→A</div>
+  <div style="position: relative; display: inline-block; margin: 0 10px;">
+    <img src="{{ '/assets/project_media/S4WM/abcd.gif' | prepend: site.baseurl }}" alt="ABCD Trajectory" style="width:75px;" />
+    <div style="color: #yourColor; font-size: 14px;">S4WM</div>
+  </div>
+  
+  <div style="position: relative; display: inline-block; margin: 0 10px;">
+    <img src="{{ '/assets/project_media/S4WM/abcd_rssm.gif' | prepend: site.baseurl }}" alt="ABCD RSSM Trajectory" style="width:75px;" />
+    <div style="color: #yourColor; font-size: 14px;">RSSM</div>
+  </div>
+</div>
+
 ## [2023] Deep RL: BLAST Implementation
 In this work I tried to reproduce the results published by the paper "BLAST: Latent Dynamics Models from Bootstrapping", a model-based RL algorithm based on DreamerV2.
 

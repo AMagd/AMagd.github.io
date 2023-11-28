@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hi!
-subtitle: My name is Ahmed
+subtitle: I'm Ahmed
 sitemap:
   priority: 0.9
 ---
@@ -12,12 +12,12 @@ sitemap:
 <!-- <img src="{{ '/assets/img/personal.jpg' | prepend: site.baseurl }}" class=rounded id="about-img"> -->
 
 <div id="describe-text">
-	<p></p>
-	<strong> ABOUT ME </strong>
-	<p>I am a robotics master student at KAIST. Currently I am a member of the perception team at <a href="http://vdclab.kaist.ac.kr/"> VDC</a> Lab. My current research focuses on self-driving cars, specifically on mapping the surroundings of the ego-vehicle in a bird's eye view manner (BEV). Although I am currently working in CVML, I am interested in working with reinforcement learning (RL) and self-supervised learning (SSL) after finishing my masters.
-	</p>
-	<p>
-	<strong> RESEARCH INTERESTS </strong>
-	<br> Deep Learning, <u>Reinforcement Learning</u>, <u>Self-supervised Learning</u>, Computer Vision and Robotics <br/> (Ordered according to my interest in the topic)
-	</p>
+  <strong>ABOUT ME</strong>
+  <p>
+    Currently a researcher at KAIST's School of Computing and part of the Machine Learning and Mind Lab led by Professor <a href="https://mlml.kaist.ac.kr/sungjinahn">Sungjin Ahn</a>. Previously, I completed my MS in Robotics at KAIST, focusing on Machine Learning and Computer Vision for self-driving cars under Professor <a href="http://vdclab.kaist.ac.kr/bbs/board.php?bo_table=sub1_1">Dongsuk Kum</a>. My research spans the improvement of reinforcement learning, computer vision, and their algorithms and their application in AI agents, specifically for embodied agents (e.g. robotics, simulation environments like Memoy Maze, etc.).
+  </p>
+  <p>
+    <strong>RESEARCH INTERESTS</strong><br>
+    Deep Learning for Embodied Agents, Reinforcement Learning, Computer Vision, and Robotics.
+  </p>
 </div>
