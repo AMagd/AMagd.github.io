@@ -6,24 +6,6 @@ date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
 ---
 
-## [2023] Diffusion Models for HD Mapping
-This is my MS graduation project, where I am trying to use diffusion models to create a high definition (HD) map of the environment surrounding the ego-vehicle. The map is created by using 6 surrounding camera images and feeding them to a diffusion model made specifically fascilated taking these perspective-view camera images and transforming them into a BEV HD map image. [[Report]][Report1]
-
-[Report1]: https://drive.google.com/file/d/1I50CE83l0ewW_6LKELM1uTsw-2VS6Ypn/view?usp=sharing
-
-<!-- use "jekyll serve" command to view the page -->
-The architecture I created of the diffusion model:
-<p align="center">
-<img src="{{ '/assets/project_media/Thesis/architecture.png' | prepend: site.baseurl }}" style="width:300px;" class="center" />
-</p>
-Qualitative Results:
-<p align="center">
-<img src="{{ '/assets/project_media/Thesis/input_output.png' | prepend: site.baseurl }}" style="width:300px;" class="center" />
-</p>
-<p align="center">
-<img src="{{ '/assets/project_media/Thesis/diff_cropped.gif' | prepend: site.baseurl }}" style="width:500px;" class="center" />
-</p>
-
 ## [2023] Deep RL: BLAST Implementation
 In this work I tried to reproduce the results published by the paper "BLAST: Latent Dynamics Models from Bootstrapping", a model-based RL algorithm based on DreamerV2.
 
@@ -53,6 +35,24 @@ Trained BLAST agents:
 <img src="{{ '/assets/project_media/BLAST/color_direction_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
 <img src="{{ '/assets/project_media/BLAST/random_frames_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
 <img src="{{ '/assets/project_media/BLAST/video_ar.gif' | prepend: site.baseurl }}" style="width:100px;" class="center" />
+</p>
+
+## [2023] Diffusion Models for HD Mapping
+This is my MS graduation project, where I am trying to use diffusion models to create a high definition (HD) map of the environment surrounding the ego-vehicle. The map is created by using 6 surrounding camera images and feeding them to a diffusion model made specifically fascilated taking these perspective-view camera images and transforming them into a BEV HD map image. [[Report]][Report1]
+
+[Report1]: https://drive.google.com/file/d/1I50CE83l0ewW_6LKELM1uTsw-2VS6Ypn/view?usp=sharing
+
+<!-- use "jekyll serve" command to view the page -->
+The architecture I created of the diffusion model:
+<p align="center">
+<img src="{{ '/assets/project_media/Thesis/architecture.png' | prepend: site.baseurl }}" style="width:300px;" class="center" />
+</p>
+Qualitative Results:
+<p align="center">
+<img src="{{ '/assets/project_media/Thesis/input_output.png' | prepend: site.baseurl }}" style="width:300px;" class="center" />
+</p>
+<p align="center">
+<img src="{{ '/assets/project_media/Thesis/diff_cropped.gif' | prepend: site.baseurl }}" style="width:500px;" class="center" />
 </p>
 
 ## [2022] Deep Learning: Lane Segmentation
