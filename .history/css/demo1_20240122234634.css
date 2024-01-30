@@ -1,0 +1,26 @@
+/* Color schemes */
+.demo-1 {
+	--color-text: #efedeb;
+	--color-bg: #0e0e0e;
+	--color-link: #a01616;
+	--color-link-hover: #555;
+	--color-info: #fff;
+	--color-main-text: #1d1c1c;
+	--color-scroll-text: #efedeb;
+	--font-scroll-text: 'Roboto Mono', monospace;
+	--fontsize-scroll-text: 8vw;
+}
+
+.content__main {
+	color: var(--color-main-text);
+}
+
+.js .content__text::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	height: 100%;
+	bottom: 0;
+	width: 2%;
+	background: var(--color-link);
+}
