@@ -535,8 +535,6 @@ html {
 	width: 50%;
 	/* perspective: 30vmin; */
 	perspective-origin: bottom;
-  cursor: pointer; /* Changes cursor to hand icon when hovering */
-  transition: opacity 0.3s ease; /* Smooth transition for opacity changes */
 }
 
 .photo-gallery {
@@ -709,9 +707,7 @@ html {
   border-radius: 10px;
 }
 
-.timeline > li:hover {
-  opacity: 0.75; /* Changes opacity to 0.75 when hovering */
-}
+
 
 /* position of the title of each child on the vertical timeline */
 .timeline > li:nth-child(even) > strong span {
@@ -818,15 +814,10 @@ html {
 	text-shadow: 0 0 1px #000, 0 0 1px #000;
 	font-size: 1.85vmin;
   padding: 5px;
-  display: block;
 }
 
 .timeline > li .project-description ul {
   list-style-type: disc;
-}
-
-.timeline > li .hidden {
-  display: none;
 }
 
 /* selector is the horizontal bar at the bottom of the page */

@@ -718,6 +718,10 @@ html {
 	float: left;
 }
 
+.hidden {
+  display: none;
+}
+
 /* not sure what this is, I think it's the hover link */
 .timeline > li > span a {
 	position: absolute;
@@ -818,15 +822,10 @@ html {
 	text-shadow: 0 0 1px #000, 0 0 1px #000;
 	font-size: 1.85vmin;
   padding: 5px;
-  display: block;
 }
 
 .timeline > li .project-description ul {
   list-style-type: disc;
-}
-
-.timeline > li .hidden {
-  display: none;
 }
 
 /* selector is the horizontal bar at the bottom of the page */

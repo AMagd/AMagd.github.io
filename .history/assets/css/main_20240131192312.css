@@ -825,7 +825,7 @@ html {
   list-style-type: disc;
 }
 
-.timeline > li .hidden {
+.hidden {
   display: none;
 }
 
