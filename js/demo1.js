@@ -29,8 +29,8 @@
                         if ( cnt === this.lettersTotal ) {
                             this.complete = true;
                         }
-                    }, 25);
-                }, pos*20);
+                    }, 100);
+                }, pos*80);
                 this.timeouts.push(timeout);
             });
         }

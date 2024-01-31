@@ -1,36 +1,44 @@
 ---
 layout: page
 title: "Timeline"
-subtitle: "My Academic and Project Journey (work on progress)"
+subtitle: "My Academic and Project Journey"
 date: 2024-01-10
 categories: ["general"]
 ---
 <!-- <h1>Life on Earth Timeline</h1> -->
 
-<!-- <div class="selector">
-	<a href="#diffuser">.<strong>Diffuser</strong></a>
-	<a href="#s4wm">.<strong>World Model</strong></a>
-	<a href="#rl-algorithms">.<strong>Fundamental RL Algorithms</strong></a>
-	<a href="#blast">.<strong>BLAST</strong></a>
-	<a href="#multicellular">.<strong>Earliest Multicellular Life</strong></a>
-	<a href="#plants">.<strong>Earliest Plants</strong></a>
-	<a href="#animals">.<strong>Earliest Animals</strong></a>
-	<a href="#ediacaran">.<strong>Ediacaran Biota</strong></a>
-	<a href="#cambrian">.<strong>Cambrian Explosion</strong></a>
-	<a href="#tetrapods">.<strong>Earliest Tetrapods</strong></a>
-	<a href="#dinosaurus">.<strong>Dinosaurus</strong></a>
-	<a href="#mammals">.<strong>Mammals</strong></a>
-	<a href="#primates">.<strong>Primates</strong></a>
-	<a href="#apes">.<strong>Earliest Apes</strong></a>
-	<a href="#hominini">.<strong>Hominini</strong></a>
-	<a href="#australopithecus">.<strong>Australopithecus</strong></a>
-	<a href="#2048">.<strong>2048 Game</strong></a>
-	<a href="#NileUniversity">.<strong>Homo Sapiens</strong></a>
-	<a href="#MUST">.<strong>MUST</strong></a>
-</div> -->
+<div class="selector">
+    <a href="#diffuser" style="border:none"><strong>Diffuser Project</strong></a>
+    <a href="#s4wm" style="border:none"><strong>S4WM Project</strong></a>
+    <a href="#rl-algorithms" style="border:none"><strong>RL Algorithms</strong></a>
+    <a href="#blast" style="border:none"><strong>BLAST Implementation</strong></a>
+    <a href="#mlml">2023<strong>MLML Internship</strong></a>
+    <a href="#rl_study" style="border:none"><strong>RL Study</strong></a>
+    <a href="#ms_thesis" style="border:none"><strong>MS Thesis Work</strong></a>
+    <a href="#ms_coursework">2022<strong>MS Coursework</strong></a>
+    <a href="#lane_seg" style="border:none"><strong>Lane Segmentation Project</strong></a>
+    <a href="#kaist_start">2021<strong>Start at KAIST</strong></a>
+    <a href="#uav_path_planning" style="border:none"><strong>UAV Path Planning</strong></a>
+    <a href="#uav_localization" style="border:none"><strong>UAV Localization Project</strong></a>
+    <a href="#idao" style="border:none"><strong>IDAO Competition</strong></a>
+    <a href="#ml_competition" style="border:none"><strong>Innopolis ML Competition</strong></a>
+    <a href="#inno_coursework" style="border:none"><strong>Innopolis Coursework</strong></a>
+    <a href="#inno_start">2020<strong>Start at Innopolis University</strong></a>
+    <a href="#nugrad" style="border:none"><strong>BS Graduation Project</strong></a>
+    <a href="#sesc">2019<strong>Research at SESC</strong></a>
+    <a href="#acm" style="border:none"><strong>ACM ECPC Participation</strong></a>
+    <a href="#6dof" style="border:none"><strong>6 DOF Robot Project</strong></a>
+    <a href="#vacuum" style="border:none"><strong>Automatic Vacuum Cleaner</strong></a>
+    <a href="#path_following" style="border:none"><strong>Path Following Robot</strong></a>
+    <a href="#plc" style="border:none"><strong>PLC Automation Project</strong></a>
+    <a href="#festo" style="border:none"><strong>FESTO Diploma</strong></a>
+    <a href="#nu_coursework" style="border:none"><strong>Nile University Coursework</strong></a>
+    <a href="#nu_start">2016<strong>Start at Nile University</strong></a>
+    <a href="#must_start">2015<strong>Start at MUST</strong></a>
+</div>
 
 <ul class="timeline">
-    <li class="content__section content__main">
+    <li class="content__section content__main no-before">
 		<h2 id="diffuser"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
@@ -40,7 +48,7 @@ categories: ["general"]
 		<span class="image-container">
             <span class="horizontal-image-cover" style="background-color:white">
                 <img src="assets/css/timeline_media/diffuser.gif" alt="diffuser" style="border:1px black solid">
-                <img src="assets/css/timeline_media/dists.gif" alt="diffuser" style="border:1px black solid">
+                <img src="assets/css/timeline_media/dists.gif" alt="diffuser_dists" style="border:1px black solid">
             </span>
             <span class="project-description">
             <b><u>Details:</u></b>
@@ -56,7 +64,7 @@ categories: ["general"]
         </span>
         <h2 class="content__text">Reinforcement Learning</h2>
 	</li>
-    <li class="content__section content__main">
+    <li class="content__section content__main no-before">
         <h2 id="s4wm"></h2>
         <time><strong></strong></time>
         <!--###########################################-->
@@ -82,7 +90,7 @@ categories: ["general"]
         </span>
         <h2 class="content__text">Reinforcement Learning</h2>
     </li>
-	<li class="content__section content__main">
+	<li class="content__section content__main no-before">
 		<h2 id="rl-algorithms"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
@@ -109,8 +117,8 @@ categories: ["general"]
         </span>
         <h2 class="content__text">Reinforcement Learning</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="rl-algorithms"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="blast"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -136,33 +144,33 @@ categories: ["general"]
         </span>
         <h2 class="content__text">Reinforcement Learning</h2>
 	</li>
-	<!-- <li class="content__section content__main">
-		<h2 id="multicellular"></h2>
-		<time><strong></strong></time>
-        <strong><span>Sequential and Generative Models</span></strong>
+	<li class="content__section content__main">
+		<h2 id="mlml"></h2>
+		<time><strong>2023</strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Joined MLML as an RL Research Intern</span></strong>
         <span class="image-container">
-            <span class="horizontal-image-cover" style="background-color:#6f6f6f">
-                <img src="assets/css/timeline_media/blast_vid_minigrid.gif" alt="blast">
-                <img src="assets/css/timeline_media/blast_walker.gif" alt="blast">
-                <img src="assets/css/timeline_media/blast_vid_change_color.gif" alt="blast">
-                <img src="assets/css/timeline_media/blast_cup_catch.gif" alt="blast">
+            <span class="horizontal-image-cover" style="background-color:#0d1117">
+                <img src="assets/css/timeline_media/mlml_logo.png" alt="blast" style="object-fit:contain; border-radius:50%">
             </span>
             <span class="project-description">
-            Experience working with sequential and generative models such as:</br>
+            <b><u>Details:</u></b> After becoming interested in RL for my future career, I joined MLML lab lead by Prof. <u>Sungjin Ahn</u> at KAIST to gain more experience in the field. Prior to joining the lab, I reviewed multiple works related to RL (e.g. GFlowNets, Coarse-to-Fine Q-attention, etc.) and implemented BLAST model in code. In addition, I attend and present in the lab's weekly seminar which has immensely helps in staying up-to-date with the latest RL and AI research in general.<br/>
+            <b><u>What was learnt:</u></b>
             <ul>
-            <li>RNNs</li>
-            <li>Diffusion models</li>
-            <li>GANs</li>
-            <li>Transformers</li>
-            <li>RetNets</li>
+            <li>Immense practical and theoritical experience through projects and advising</li>
+            <li>Efficinet research note taking skills</li>
+            <li>Collaboration</li>
+            <li>Stay up-to-date with recent research in RL and AI in general</li>
             </ul>
             </span>
         </span>
-        <h2 class="content__text">Reinforcement Learning</h2>
-	</li> -->
+		<h2 class="content__text">Robotics, AI & CV</h2>
+	</li>
 	<li class="content__section content__main">
-		<h2 id="plants"></h2>
-		<time><strong></strong></time>
+		<h2 id="rl_study"></h2>
+		<time><strong>2022</strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
@@ -172,7 +180,6 @@ categories: ["general"]
                 <img src="assets/css/timeline_media/rl_book.jpeg" alt="blast" style="border:2px black solid">
                 <img src="assets/css/timeline_media/openai_spinning_up.png" alt="blast" style="object-position:left; object-fit:contain; border:2px black solid">
                 <img src="assets/css/timeline_media/deepmind_x_ucl.png" alt="blast" style="border:2px black solid">
-                <!-- <img src="assets/css/timeline_media/blast_cup_catch.gif" alt="blast"> -->
             </span>
             <span class="project-description">
             After becoming extremely interested in RL, I started self-studying about it through:
@@ -188,8 +195,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Reinforcement Learning</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="animals"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="ms_thesis"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -215,8 +222,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">AI & Computer Vision</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="ms-coursework"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="ms_coursework"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -242,8 +249,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">AI & Computer Vision</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="ediacaran"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="lane_seg"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -266,7 +273,7 @@ categories: ["general"]
 	</li>
 	<li class="content__section content__main">
 		<h2 id="kaist_start"></h2>
-		<time><strong></strong></time>
+		<time><strong>2021</strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
@@ -281,8 +288,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics, AI & CV</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="inno_start"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="uav_path_planning"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -294,7 +301,6 @@ categories: ["general"]
                 <img src="assets/project_media/path_planning1.png" alt="uav localization project" style="border:black 1px solid">
                 <img src="assets/project_media/path_planning2.png" alt="uav localization project" style="border:black 1px solid">
                 <img src="assets/project_media/path_planning3.png" alt="uav localization project" style="border:black 1px solid">
-                <!-- <img src="assets/project_media/path_planning_legend.png" alt="uav localization project" style="position:absolute; buttom:0%; left:50%"> -->
             </span>
             <span class="project-description">
             <b><u>Details:</u></b> The light blue circles represent the position of the UAV at each step, while the red and green polytopes represent the obstacles and free areas respectively. The green polytopes were created to guide the UAV into knowing that these places are free spaces, and to solve the problem in a particular convex optimization technique.<br/>
@@ -307,8 +313,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics, AI & CV</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="inno_start"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="uav_localization"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -332,8 +338,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics, AI & CV</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="inno_start"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="idao"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -356,8 +362,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics, AI & CV</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="inno_start"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="ml_competition"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -380,8 +386,8 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics, AI & CV</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="inno_start"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="inno_coursework"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -400,7 +406,7 @@ categories: ["general"]
 	</li>
 	<li class="content__section content__main">
 		<h2 id="inno_start"></h2>
-		<time><strong></strong></time>
+		<time><strong>2020</strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
@@ -415,13 +421,13 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics, AI & CV</h2>
 	</li>
-	<li class="content__section content__main">
+	<li class="content__section content__main no-before">
 		<h2 id="nugrad"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
-        <strong><span>BS Graduation</span></strong>
+        <strong><span>BS Graduation Project</span></strong>
         <span class="image-container">
             <span class="horizontal-image-cover" style="background-color:#6f6f6f">
                 <img src="assets/css/timeline_media/grad_proj1.png" alt="blast">
@@ -442,8 +448,8 @@ categories: ["general"]
 		<h2 class="content__text">Robotics</h2>
 	</li>
 	<li class="content__section content__main">
-		<h2 id="nugrad"></h2>
-		<time><strong></strong></time>
+		<h2 id="sesc"></h2>
+		<time><strong>2019</strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
@@ -457,7 +463,7 @@ categories: ["general"]
                 <img src="assets/css/timeline_media/pub4.png" alt="blast" style="border:2px solid black">
             </span>
             <span class="project-description">
-                <b><u>Details:</u></b> I joined SESC in 2019 with a passion and desire to delve deeper into research and integrate into its community. With that goal in mind, I didn't not aim for top-tier publications, but i aimed to gain the basic research skills needed in the future (which is not an easy thing to aquire in my environment and country). During that period I managed to work on three different projects and had a publication in each of them (was supposed to be first author or co-first author in the 2nd and 3rd projects, but back then I was not aware of the importance of the order of authors).<br/>
+                <b><u>Details:</u></b> I joined SESC, being advised by <u>Dr. Hossam Hassan</u>, in 2019 with a passion and desire to delve deeper into research and integrate into its community. With that goal in mind, I didn't not aim for top-tier publications, but i aimed to gain the basic research skills needed in the future (which is not an easy thing to aquire in my environment and country). During that period I managed to work on three different projects and had a publication in each of them (was supposed to be first author or co-first author in the 2nd and 3rd projects, but back then I was not aware of the importance of the order of authors).<br/>
                 <ul>
                 <li>1st project: Experimental modeling of hexapod robot using artificial intelligence, published in AICV 2020</li>
                 <li>2nd project: Classifying upper limb activities using deep neural networks, published in AICV 2020</li>
@@ -475,8 +481,128 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="nugrad"></h2>
+	<li class="content__section content__main no-before">
+		<h2 id="acm"></h2>
+		<time><strong></strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Participation in ACM ECPC</span></strong>
+        <span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:white">
+                <img src="assets/css/timeline_media/acm.png" alt="blast" style="object-fit:contain">
+            </span>
+            <span class="project-description">
+                <b><u>Details:</u></b> Attended an ACM ECPC competitive programming orientation at Nile University, inspiring me to form a team and participate immediately due to my competitive nature and newfound passion for programming problem-solving, despite not being a CS student.<br/>
+                <b><u>What was learnt:</u></b>
+                <ul>
+                <li>Proficiency in C++ programming.</li>
+                <li>Understanding of competitive programming, algorithms, and efficient coding.</li>
+                <li>Development of teamwork skills.</li>
+                </ul>
+            </span>
+        </span>
+		<h2 class="content__text">Robotics</h2>
+	</li>
+	<li class="content__section content__main no-before">
+		<h2 id="6dof"></h2>
+		<time><strong></strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Building 6 DOF Robot Manipulator</span></strong>
+        <span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:#6f6f6f">
+                <img src="assets/project_media/6dof.gif" alt="blast">
+            </span>
+            <span class="project-description">
+                <b><u>Details:</u></b> Along with my teammates, we built a 6DOF robotic arm **entirely from scratch**, with most of the parts being 3D printed while the others are made of acrylic. This was during a program organized by Nile University and Erasmus+ (VETEng program) , that aims to group mechatronics engineering students with vocational students in several projects.<br/>
+                <b><u>What was learnt:</u></b>
+                <ul>
+                <li>Accurate design all parts of the robot based on the available compoenents in the market, taking into considerations the payloads, frictions, electronic boards, etc.</li>
+                <li>Manufacturing and assembling the robot</li>
+                <li>Controlling the robot</li>
+                </ul>
+            </span>
+        </span>
+		<h2 class="content__text">Robotics</h2>
+	</li>
+	<li class="content__section content__main no-before">
+		<h2 id="vacuum"></h2>
+		<time><strong></strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Automatic Vacuum Cleaner</span></strong>
+        <span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:#6f6f6f">
+                <img src="assets/project_media/omni.gif" alt="blast">
+            </span>
+            <span class="project-description">
+                <b><u>Details:</u></b> Collaborated with teammates to create an automatic vacuum cleaner robot, featuring omniwheels for improved maneuverability in indoor environments and ultrasonic sensors for obstacle detection.<br/>
+                <b><u>What was learnt:</u></b>
+                <ul>
+                <li>Design and assembly of all the parts of the mobile robot</li>
+                <li>The use of ultrasonic sensors</li>
+                <li>Experience in using omniwheels and controlling them in a way to fasciliated my desired objective</li>
+                <li>Teamworking skills</li>
+                </ul>
+            </span>
+        </span>
+		<h2 class="content__text">Robotics</h2>
+	</li>
+	<li class="content__section content__main no-before">
+		<h2 id="path_following"></h2>
+		<time><strong>&nbsp;</strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Freelance: Path Following Mobile Robot</span></strong>
+        <span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:#6f6f6f">
+                <img src="assets/css/timeline_media/path_following.gif" alt="blast" style="object-fit:contain">
+            </span>
+            <span class="project-description">
+            <b><u>Details:</u></b> This was a project made to help school students learn about robotics. In this project I assembled a mobile robot and and created the algorithm that can help it follow the lanes based on pixel images with the help of deep learning<br/>
+            <b><u>Ojective and skills learnt:</u></b>
+            <ul>
+            <li>Exposure to deep learning</li>
+            <li>Technical experience in assembling the robot</li>
+            <li>This job (along with other mechanical desinging projects) helped me pay the applicaton fees for my MS applications</li>
+            </ul>
+            </span>
+        </span>
+		<h2 class="content__text">Robotics</h2>
+	</li>
+	<li class="content__section content__main no-before">
+		<h2 id="plc"></h2>
+		<time><strong>&nbsp;</strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Freelance: Programming PLC for Automoation</span></strong>
+        <span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:white">
+                <img src="assets/css/timeline_media/plc_code.gif" alt="blast" style="border:1px solid black;">
+                <img src="assets/css/timeline_media/plc1.gif" alt="blast" style="border:1px solid black;">
+                <img src="assets/css/timeline_media/plc0.gif" alt="blast" style="border:1px solid black;">
+                <img src="assets/css/timeline_media/plc2.gif" alt="blast" style="border:1px solid black;">
+                <img src="assets/css/timeline_media/plc3.gif" alt="blast" style="border:1px solid black;">
+            </span>
+            <span class="project-description">
+            <b><u>Details:</u></b> Programmed a PLC to automate a production line for pipes in one of the factories in Egypt.<br/>
+            <b><u>Ojective and skills learnt:</u></b>
+            <ul>
+            <li>Although I'm not interested in such kind of jobs, I was able to learn and program a PLC device from scratch in only two weeks with the exact specifications that the customer asked for and to integrate it and test it into their factory for real-time automation of pipe production, this was a clear example of my quick learning abilities</li>
+            <li>Gained industry-related experience</li>
+            <li>This job helped me pay the applicaton fees for my MS applications</li>
+            </ul>
+            </span>
+        </span>
+		<h2 class="content__text">Robotics</h2>
+	</li>
+    <li class="content__section content__main no-before">
+		<h2 id="festo"></h2>
 		<time><strong></strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
@@ -487,7 +613,7 @@ categories: ["general"]
                 <img src="assets/css/timeline_media/festo_logo.png" alt="blast" style="object-fit:contain; padding:20px">
             </span>
             <span class="project-description">
-                <b><u>Details:</u></b> enrolled in 2-years FESTO professional diplome as FACT center in Nile University, it's focused on developing industry relevant knowledge in the robotics field throught the following courses:<br/>
+                <b><u>Details:</u></b> enrolled in 2-years FESTO professional diplome as FACT center in Nile University in parallel while doing my undergraduate studies there, it's focused on developing industry relevant knowledge in the robotics field throught the following courses:<br/>
                 <table style="width:100%;">
                 <tr>
                     <th>1. Pneumatics</th>
@@ -514,52 +640,70 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics</h2>
 	</li>
-	<li class="content__section content__main">
-		<h2 id="nugrad"></h2>
-		<time><strong></strong></time>
+	<li class="content__section content__main no-before">
+		<h2 id="nu_coursework"></h2>
+		<time><strong>&nbsp;</strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
-        <strong><span>Participation in ACM ECPC</span></strong>
+        <strong><span>Coursework at Nile University</span></strong>
         <span class="image-container">
             <span class="horizontal-image-cover" style="background-color:white">
-                <img src="assets/css/timeline_media/acm.png" alt="blast" style="object-fit:contain">
+                <img src="assets/css/timeline_media/2048.gif" alt="blast" style="border:1px solid black;">
+                <img src="assets/css/timeline_media/vid_ecryption.png" alt="blast" style="border:1px solid black">
+                <img src="assets/css/timeline_media/ugrf.png" alt="blast" style="padding:10px; border:1px solid black">
+                <img src="assets/css/timeline_media/courses0.gif" alt="blast" style="object-position:right; border:1px solid black;">
+                <img src="assets/css/timeline_media/rigid_project.png" alt="blast" style="border:1px solid black">
             </span>
             <span class="project-description">
-                <b><u>Details:</u></b> Attended an ACM ECPC competitive programming orientation at Nile University, inspiring me to form a team and participate immediately due to my competitive nature and newfound passion for programming problem-solving, despite not being a CS student.<br/>
-                <b><u>What was learnt:</u></b>
-                <ul>
-                <li>Proficiency in C++ programming.</li>
-                <li>Understanding of competitive programming, algorithms, and efficient coding.</li>
-                <li>Development of teamwork skills.</li>
-                </ul>
+            My coursework at Nile University was focused on the basics of mechatronics engineering, with courses such as: Robotics, power electronics, control systems, programming, etc. with many of the courses being project-based or research-based, such as video encryption project in linear algebra course, and the automatic vacuum cleaner project in the control course, creating game 2048 app from scratch in the python programming course, etc. These courses were essential to my field and helped me gain the basic knowledge needed in the field. In addition, most of these courses were presented in Undergraduate Research Forum (UGRF), held at Nile University every semester, where students present their projects and research to the public and to a panel of judges, which helped tune my research skills.
             </span>
         </span>
 		<h2 class="content__text">Robotics</h2>
 	</li>
 	<li class="content__section content__main">
-		<h2 id="nugrad"></h2>
-		<time><strong></strong></time>
+		<h2 id="nu_start"></h2>
+		<time><strong>2016</strong></time>
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
-        <strong><span>Automatic Vacuum Cleaner</span></strong>
+        <strong><span>Moved to Nile University</span></strong>
         <span class="image-container">
-            <span class="horizontal-image-cover" style="background-color:#6f6f6f">
-                <img src="assets/project_media/omni.gif" alt="blast">
+            <span class="horizontal-image-cover" style="background-color:#1b8ccc">
+                <img src="assets/css/timeline_media/nu-newlogo_circle.png" alt="blast" style="object-fit:contain">
             </span>
             <span class="project-description">
-                <b><u>Details:</u></b> Collaborated with teammates to create an automatic vacuum cleaner robot, featuring omniwheels for improved maneuverability in indoor environments and ultrasonic sensors for obstacle detection.<br/>
-                <b><u>What was learnt:</u></b>
-                <ul>
-                <li>Design and assembly of all the parts of the mobile robot</li>
-                <li>The use of ultrasonic sensors</li>
-                <li>Experience in using omniwheels and controlling them in a way to fasciliated my desired objective</li>
-                <li>Teamworking skills</li>
-                </ul>
+            Transferred to Nile Univeristy to continue my BS in Mechatronics Engineering degree after being granted a 100% scholarship from Bank of Egypt
+            <b><u>Achievements:</u></b>
+            <ul>
+            <li>Graduated ranking 2nd/~110 engineering students, with a CGPA of 3.98/4.0</li>
+            <li>Recipient of the Dean’s Honor award</li>
+            </ul>
             </span>
         </span>
 		<h2 class="content__text">Robotics</h2>
+	</li>
+	<li class="content__section content__main">
+		<h2 id="must_start"></h2>
+		<time><strong>2015</strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Started BS in Engineering at Misr University for Science and Technology (MUST)</span></strong>
+        <span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:#0a9f47">
+                <img src="assets/css/timeline_media/must_logo.png" alt="blast" style="object-fit:contain">
+            </span>
+            <span class="project-description">
+            Started my BS in Engineering at MUST and spent one year there. <br/>
+            <b><u>Achievements:</u></b>
+            <ul>
+            <li>Ranked 1st/~250 engineering students at the end of the year before transferring to Nile University.</li>
+            <li>I was head of the scientific committee of Building Family, a community aimed at helping students in my batch with their studies.</li>
+            </ul>
+            </span>
+        </span>
+		<h2 class="content__text">Engineering</h2>
 	</li>
 <ul>
 <script src="js/imagesloaded.pkgd.min.js"></script>

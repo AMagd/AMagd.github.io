@@ -493,7 +493,7 @@ html {
 }
 
 /* this is the box at the bottom of the page */
-/* .timeline::before {
+.timeline::before {
 	content: "";
 	position: fixed;
 	width: 100vw;
@@ -503,7 +503,7 @@ html {
 	background: white;
 	height: 8vh;
   border-top: 2px solid black;
-} */
+}
 
 .timeline::after {
 	content: "";
@@ -592,6 +592,10 @@ html {
 	border: medium solid #100d0d;
 	border-width: 1vmin 0 1vmin 1vmin;
 	border-color: #fff0 #fff0 #fff0 #252222;
+}
+
+.timeline > li.no-before:before {
+  content: none;
 }
 
 /* this is the black arrow on the vertical timeline for the even numbered children */
@@ -850,7 +854,7 @@ html {
   top: -4vmin;
   background: url(timeline_media/robot.png) no-repeat center center;
   background-size: contain;
-  filter: drop-shadow(0 0 1vmin #000);
+  filter: drop-shadow(0 0 0.2vmin #000);
   border-radius: 0%;
 }
 
@@ -877,69 +881,35 @@ html {
 }
 
 
-a[href="#diffuser"] {
-	left: 0vw;
-}
-a[href="#s4wm"] {
-	left: 4vw;
-}
-a[href="#rl-algorithms"] {
-	left: 8vw;
-}
-a[href="#blast"] {
-	left: 11vw;
-}
-a[href="#multicellular"] {
-	left: 21vw;
-}
+a[href="#diffuser"] { left: 0vw; }
+a[href="#s4wm"] { left: 3.73vw; }
+a[href="#rl-algorithms"] { left: 7.46vw; }
+a[href="#blast"] { left: 11.19vw; }
+a[href="#mlml"] { left: 14.92vw; }
+a[href="#rl_study"] { left: 18.65vw; }
+a[href="#ms_thesis"] { left: 22.38vw; }
+a[href="#ms_coursework"] { left: 26.11vw; }
+a[href="#lane_seg"] { left: 29.84vw; }
+a[href="#kaist_start"] { left: 33.57vw; }
+a[href="#uav_path_planning"] { left: 37.30vw; }
+a[href="#uav_localization"] { left: 41.03vw; }
+a[href="#idao"] { left: 44.76vw; }
+a[href="#ml_competition"] { left: 48.49vw; }
+a[href="#inno_coursework"] { left: 52.22vw; }
+a[href="#inno_start"] { left: 55.95vw; }
+a[href="#nugrad"] { left: 59.68vw; }
+a[href="#sesc"] { left: 63.41vw; }
+a[href="#acm"] { left: 67.14vw; }
+a[href="#6dof"] { left: 70.87vw; }
+a[href="#vacuum"] { left: 74.60vw; }
+a[href="#path_following"] { left: 78.33vw; }
+a[href="#plc"] { left: 82.06vw; }
+a[href="#festo"] { left: 85.79vw; }
+a[href="#nu_coursework"] { left: 89.52vw; }
+a[href="#nu_start"] { left: 93.25vw; }
+a[href="#must_start"] { left: 97vw; }
 
-a[href="#plants"] {
-	left: 32vw;
-}
-a[href="#animals"] {
-	left: 36vw;
-}
-a[href="#ms-coursework"] {
-	left: 36vw;
-}
-a[href="#ediacaran"] {
-	left: 42vw;
-}
-a[href="#cambrian"] {
-	left: 45.5vw;
-}
 
-a[href="#tetrapods"] {
-	left: 52vw;
-}
-a[href="#dinosaurus"] {
-	left: 57vw;
-}
-a[href="#mammals"] {
-	left: 60.5vw;
-}
-a[href="#primates"] {
-	left: 67vw;
-}
-
-a[href="#apes"] {
-	left: 73vw;
-}
-a[href="#hominini"] {
-	left: 78vw;
-}
-a[href="#australopithecus"] {
-	left: 81vw;
-}
-a[href="#2048"] {
-	left: 84vw;
-}
-a[href="#NileUniversity"] {
-	left: 90vw;
-}
-a[href="#MUST"] {
-	left: 95vw;
-}
 
 a strong {
 	background: #1c1c1c;
@@ -968,7 +938,10 @@ a strong:before {
 	bottom: -1.7vmin;
 }
 
-.timeline > li:nth-child(2) {
+.timeline > li {
+	margin-top: 5vh;
+}
+/* .timeline > li:nth-child(2) {
 	margin-top: 5vh;
 }
 .timeline > li:nth-child(3) {
@@ -1018,7 +991,7 @@ a strong:before {
 }
 .timeline > li:nth-child(18) {
 	margin-top: 10vh;
-}
+} */
 
 /*** PORTRAIT ***/
 
@@ -1066,63 +1039,85 @@ a strong:before {
 		display: none;
 	}
 
-	a[href="#diffuser"] {
-		top: 2vh;
-	}
-	a[href="#s4wm"] {
-		top: 7vh;
-	}
-	a[href="#blast"] {
-		top: 11vh;
-	}
-	a[href="#multicellular"] {
-		top: 21vh;
-	}
-	a[href="#plants"] {
-		top: 32vh;
-	}
-	a[href="#animals"] {
-		top: 36vh;
-	}
-	a[href="#ms-coursework"] {
-		top: 36vh;
-	}
-	a[href="#ediacaran"] {
-		top: 42vh;
-	}
-	a[href="#cambrian"] {
-		top: 45.5vh;
-	}
-	a[href="#tetrapods"] {
-		top: 52vh;
-	}
-	a[href="#dinosaurus"] {
-		top: 57vh;
-	}
-	a[href="#mammals"] {
-		top: 60.5vh;
-	}
-	a[href="#primates"] {
-		top: 67vh;
-	}
-	a[href="#apes"] {
-		top: 73vh;
-	}
-	a[href="#hominini"] {
-		top: 78vh;
-	}
-	a[href="#australopithecus"] {
-		top: 81vh;
-	}
-	a[href="#2048"] {
-		top: 84vh;
-	}
-	a[href="#NileUniversity"] {
-		top: 90vh;
-	}
-	a[href="#MUST"] {
-		top: 95vh;
-	}
+  a[href="#diffuser"] {
+      top: 2vh;
+  }
+  a[href="#s4wm"] {
+      top: 6vh;
+  }
+  a[href="#blast"] {
+      top: 10vh;
+  }
+  a[href="#mlml"] {
+      top: 14vh;
+  }
+  a[href="#rl_study"] {
+      top: 18vh;
+  }
+  a[href="#ms_thesis"] {
+      top: 22vh;
+  }
+  a[href="#ms_coursework"] {
+      top: 26vh;
+  }
+  a[href="#lane_seg"] {
+      top: 30vh;
+  }
+  a[href="#kaist_start"] {
+      top: 34vh;
+  }
+  a[href="#uav_path_planning"] {
+      top: 38vh;
+  }
+  a[href="#uav_localization"] {
+      top: 42vh;
+  }
+  a[href="#idao"] {
+      top: 46vh;
+  }
+  a[href="#ml_competition"] {
+      top: 50vh;
+  }
+  a[href="#inno_coursework"] {
+      top: 54vh;
+  }
+  a[href="#inno_start"] {
+      top: 58vh;
+  }
+  a[href="#nugrad"] {
+      top: 62vh;
+  }
+  a[href="#sesc"] {
+      top: 66vh;
+  }
+  a[href="#acm"] {
+      top: 70vh;
+  }
+  a[href="#6dof"] {
+      top: 74vh;
+  }
+  a[href="#vacuum"] {
+      top: 78vh;
+  }
+  a[href="#path_following"] {
+      top: 82vh;
+  }
+  a[href="#plc"] {
+      top: 86vh;
+  }
+  a[href="#festo"] {
+      top: 90vh;
+  }
+  a[href="#nu_coursework"] {
+      top: 94vh;
+  }
+  a[href="#nu_start"] {
+      top: 98vh;
+  }
+  a[href="#must_start"] {
+      top: 102vh;
+  }
+
 }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay */
