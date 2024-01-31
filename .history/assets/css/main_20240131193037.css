@@ -923,7 +923,7 @@ a[href="#must_start"] { left: 97vw; }
 
 
 a strong {
-	background: var(--text-hover-color);
+	background: var(--text-hover-color)
 	color: white;
 	position: absolute;
 	top: 9vmin;
@@ -931,7 +931,7 @@ a strong {
 	padding: 0.5vmin 0.75vmin;
 	width: max-content;
 	border-radius: 0.25vmin;
-  left: var(--selector-width, 0);
+	left: 0;
 	transition: top 0.1s ease 0s;
 	z-index: -1;
 }
@@ -947,7 +947,6 @@ a strong:before {
 	border-top-color: #1c1c1c;
 	position: absolute;
 	bottom: -1.7vmin;
-  left: var(--selector-before-width, 5px);
 }
 
 .timeline > li {

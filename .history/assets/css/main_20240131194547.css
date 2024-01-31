@@ -947,7 +947,7 @@ a strong:before {
 	border-top-color: #1c1c1c;
 	position: absolute;
 	bottom: -1.7vmin;
-  left: var(--selector-before-width, 5px);
+  left: var(--selector-before-width, 0);
 }
 
 .timeline > li {

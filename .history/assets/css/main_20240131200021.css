@@ -926,7 +926,7 @@ a strong {
 	background: var(--text-hover-color);
 	color: white;
 	position: absolute;
-	top: 9vmin;
+	top: -9vmin;
 	font-weight: 300;
 	padding: 0.5vmin 0.75vmin;
 	width: max-content;
@@ -947,7 +947,7 @@ a strong:before {
 	border-top-color: #1c1c1c;
 	position: absolute;
 	bottom: -1.7vmin;
-  left: var(--selector-before-width, 5px);
+  /* left: var(--selector-before-width, 0); */
 }
 
 .timeline > li {
