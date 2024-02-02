@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Selected Projects"
+title:  "Projects"
 subtitle: "many other projects are not included in here and were not documented"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
