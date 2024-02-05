@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  "Relevant Coursework"
+title1:  "Coursework"
 subtitle: "click on the course to view the table of content"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
