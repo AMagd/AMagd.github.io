@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Timeline"
-title1: "Timeline"
+title: "Journey"
+title1: "Journey"
 subtitle: "My Academic and Project Journey"
 date: 2024-01-10
 categories: ["general"]
