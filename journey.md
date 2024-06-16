@@ -9,6 +9,7 @@ categories: ["general"]
 <!-- <h1>Life on Earth Timeline</h1> -->
 
 <div class="selector">
+    <a href="#jhu" style="border:none"><strong>Johns Hopkins University</strong></a>
     <a href="#diffuser" style="border:none"><strong>Diffuser Project</strong></a>
     <a href="#s4wm" style="border:none"><strong>S4WM Project</strong></a>
     <a href="#rl-algorithms" style="border:none"><strong>RL Algorithms</strong></a>
@@ -39,6 +40,24 @@ categories: ["general"]
 </div>
 
 <ul class="timeline">
+    <li class="content__section content__main no-before">
+		<h2 id="jhu"></h2>
+		<time><strong></strong></time>
+        <!--###########################################-->
+        <!--############## PROJECT TITLE ##############-->
+        <!--###########################################-->
+        <strong><span>Joined Johns Hopkins University CCVL Lab as a Research Intern</span></strong> 
+		<span class="image-container">
+            <span class="horizontal-image-cover" style="background-color:#0d1117">
+                <img src="assets/css/timeline_media/jhu.png" alt="JHU" style="object-fit:contain; border-radius:50%">
+            </span>
+            <span class="project-description">
+            <b><u>Details:</u></b>
+            Joined CCVL Lab at Johns Hopkins University as a research intern focusing on machine learning and computer vision for medical image analysis<br/>
+            </span>
+        </span>
+        <h2 class="content__text">Reinforcement Learning</h2>
+	</li>
     <li class="content__section content__main no-before">
 		<h2 id="diffuser"></h2>
 		<time><strong></strong></time>

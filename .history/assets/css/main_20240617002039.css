@@ -899,7 +899,7 @@ html {
 }
 
 
-a[href="#jhu"] { left: 0vw; }
+a[href="#JHU"] { left: 0vw; }
 a[href="#diffuser"] { left: 3.65vw; }
 a[href="#s4wm"] { left: 7.30vw; }
 a[href="#rl-algorithms"] { left: 10.95vw; }
@@ -1009,88 +1009,84 @@ a strong:before {
 		display: none;
 	}
 
-a[href="#jhu"] {
-    top: 2vh;
-}
-a[href="#diffuser"] {
-  top: 6vh;
-}
-a[href="#s4wm"] {
-    top: 10vh;
-}
-a[href="#blast"] {
-    top: 14vh;
-}
-a[href="#mlml"] {
-    top: 18vh;
-}
-a[href="#rl_study"] {
-    top: 22vh;
-}
-a[href="#ms_thesis"] {
-    top: 26vh;
-}
-a[href="#ms_coursework"] {
-    top: 30vh;
-}
-a[href="#lane_seg"] {
-    top: 34vh;
-}
-a[href="#kaist_start"] {
-    top: 38vh;
-}
-a[href="#uav_path_planning"] {
-    top: 42vh;
-}
-a[href="#uav_localization"] {
-    top: 46vh;
-}
-a[href="#idao"] {
-    top: 50vh;
-}
-a[href="#ml_competition"] {
-    top: 54vh;
-}
-a[href="#inno_coursework"] {
-    top: 58vh;
-}
-a[href="#inno_start"] {
-    top: 62vh;
-}
-a[href="#nugrad"] {
-    top: 66vh;
-}
-a[href="#sesc"] {
-    top: 70vh;
-}
-a[href="#acm"] {
-    top: 74vh;
-}
-a[href="#6dof"] {
-    top: 78vh;
-}
-a[href="#vacuum"] {
-    top: 82vh;
-}
-a[href="#path_following"] {
-    top: 86vh;
-}
-a[href="#plc"] {
-    top: 90vh;
-}
-a[href="#festo"] {
-    top: 94vh;
-}
-a[href="#nu_coursework"] {
-    top: 98vh;
-}
-a[href="#nu_start"] {
-    top: 102vh;
-}
-a[href="#must_start"] {
-    top: 106vh;
-}
-
+  a[href="#diffuser"] {
+      top: 2vh;
+  }
+  a[href="#s4wm"] {
+      top: 6vh;
+  }
+  a[href="#blast"] {
+      top: 10vh;
+  }
+  a[href="#mlml"] {
+      top: 14vh;
+  }
+  a[href="#rl_study"] {
+      top: 18vh;
+  }
+  a[href="#ms_thesis"] {
+      top: 22vh;
+  }
+  a[href="#ms_coursework"] {
+      top: 26vh;
+  }
+  a[href="#lane_seg"] {
+      top: 30vh;
+  }
+  a[href="#kaist_start"] {
+      top: 34vh;
+  }
+  a[href="#uav_path_planning"] {
+      top: 38vh;
+  }
+  a[href="#uav_localization"] {
+      top: 42vh;
+  }
+  a[href="#idao"] {
+      top: 46vh;
+  }
+  a[href="#ml_competition"] {
+      top: 50vh;
+  }
+  a[href="#inno_coursework"] {
+      top: 54vh;
+  }
+  a[href="#inno_start"] {
+      top: 58vh;
+  }
+  a[href="#nugrad"] {
+      top: 62vh;
+  }
+  a[href="#sesc"] {
+      top: 66vh;
+  }
+  a[href="#acm"] {
+      top: 70vh;
+  }
+  a[href="#6dof"] {
+      top: 74vh;
+  }
+  a[href="#vacuum"] {
+      top: 78vh;
+  }
+  a[href="#path_following"] {
+      top: 82vh;
+  }
+  a[href="#plc"] {
+      top: 86vh;
+  }
+  a[href="#festo"] {
+      top: 90vh;
+  }
+  a[href="#nu_coursework"] {
+      top: 94vh;
+  }
+  a[href="#nu_start"] {
+      top: 98vh;
+  }
+  a[href="#must_start"] {
+      top: 102vh;
+  }
 
 }
 
