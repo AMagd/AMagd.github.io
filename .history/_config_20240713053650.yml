@@ -7,13 +7,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://AMagd.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Ahmed Magd
+  fullname: Ahmed Magd Aly
   github: AMagd
   gscholar: citations?user=ompvAHsAAAAJ&hl=en
-  linkedin: ahmed-magd1
+  linkedin: ahmed-magd
   email: #a.magd@kaist.ac.kr
-  twitter: a7md_magd2
-  instagram: a7md_magd11
+  twitter: a7md_magd
+  instagram: a7md_magd1
 
 
 # Syntax highlighting
