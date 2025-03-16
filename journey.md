@@ -693,7 +693,7 @@ categories: ["general"]
                 <img src="assets/css/timeline_media/nu-newlogo_circle.png" alt="blast" style="object-fit:contain">
             </span>
             <span class="project-description">
-            Transferred to Nile Univeristy to continue my BS in mechatronics engineering degree after being granted a 100% scholarship from Bank of Egypt<br/>
+            Started my bachelors at Nile Univeristy in mechatronics engineering degree after being granted a 100% scholarship from Bank of Egypt<br/>
             <b><u>Achievements:</u></b>
             <ul>
             <li>Graduated ranking 2nd/~110 engineering students, with a CGPA of 3.98/4.0</li>
