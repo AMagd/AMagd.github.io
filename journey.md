@@ -703,13 +703,13 @@ categories: ["general"]
         </span>
 		<h2 class="content__text">Robotics</h2>
 	</li>
-	<li class="content__section content__main">
+	<!-- <li class="content__section content__main">
 		<h2 id="must_start"></h2>
-		<time><strong>2015</strong></time>
+		<time><strong>2015</strong></time> -->
         <!--###########################################-->
         <!--############## PROJECT TITLE ##############-->
         <!--###########################################-->
-        <strong><span>Started BS in Engineering at Misr University for Science and Technology (MUST)</span></strong>
+        <!-- <strong><span>Started BS in Engineering at Misr University for Science and Technology (MUST)</span></strong>
         <span class="image-container">
             <span class="horizontal-image-cover" style="background-color:#0a9f47">
                 <img src="assets/css/timeline_media/must_logo.png" alt="blast" style="object-fit:contain">
@@ -724,7 +724,7 @@ categories: ["general"]
             </span>
         </span>
 		<h2 class="content__text">Engineering</h2>
-	</li>
+	</li> -->
 <ul>
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/charming.min.js"></script>
