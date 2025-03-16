@@ -731,3 +731,25 @@ categories: ["general"]
 <script src="js/demo1.js"></script>
 <script src="js/click.js"></script>
 <script src="js/selector.js"></script>
+
+
+
+<!-- <li class="content__section content__main">
+    <h2 id="nu_start"></h2>
+    <time><strong>2016</strong></time>
+    <strong><span>Moved to Nile University</span></strong>
+    <span class="image-container">
+        <span class="horizontal-image-cover" style="background-color:#1b8ccc">
+            <img src="assets/css/timeline_media/nu-newlogo_circle.png" alt="blast" style="object-fit:contain">
+        </span>
+        <span class="project-description">
+        Transferred to Nile Univeristy to continue my BS in mechatronics engineering degree after being granted a 100% scholarship from Bank of Egypt<br/>
+        <b><u>Achievements:</u></b>
+        <ul>
+        <li>Graduated ranking 2nd/~110 engineering students, with a CGPA of 3.98/4.0</li>
+        <li>Recipient of the Dean’s Honor award</li>
+        </ul>
+        </span>
+    </span>
+    <h2 class="content__text">Robotics</h2>
+</li> -->
