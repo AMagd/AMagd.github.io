@@ -36,7 +36,7 @@ categories: ["general"]
     <a href="#festo" style="border:none"><strong>FESTO Diploma</strong></a>
     <a href="#nu_coursework" style="border:none"><strong>Nile University Coursework</strong></a>
     <a href="#nu_start">2016<strong>Start at Nile University</strong></a>
-    <a href="#must_start">2015<strong>Start at MUST</strong></a>
+    <!-- <a href="#must_start">2015<strong>Start at MUST</strong></a> -->
 </div>
 
 <ul class="timeline">
